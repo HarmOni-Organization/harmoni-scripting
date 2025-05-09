@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Runtime data
+logs/
+*.log
+npm-debug.log*
+
+# Data directories
+data/
+results/
+db/
+
+# But keep the directory structure
+!data/.gitkeep
+!results/.gitkeep
+!db/.gitkeep
+!logs/.gitkeep
+
+# Large files
+*.csv
+*.json.gz
+*.tar.gz
+*.zip
+
+# Allow package.json and README.md to be included
+# But exclude other JSON files by default
+*.json
+!package.json
+
+# Allow README.md and LICENSE files
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!.gitignore
+
+# Test files and old scripts
+test*.js
+
+# System files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
